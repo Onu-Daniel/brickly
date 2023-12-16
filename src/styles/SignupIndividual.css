@@ -1,0 +1,78 @@
+
+
+.box{
+    width: 30%;
+    height: 100%;
+    background-color: #1520a6;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* Add padding for spacing */
+  }
+
+.form-inside {
+    margin-bottom: 5px;
+    font-size: small;
+    color: #f0f8ff;
+  }
+
+  .input-field {
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+}
+
+.input-field {
+  height: 25px;
+}
+
+.input-field::placeholder{
+  text-indent: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.login-text {
+    color: #f0f8ff;
+    font-size: 12px;
+  }
+  
+  .login-text a {
+    color: #f0f8ff;
+    text-decoration: underline;
+  }
+  
+  .login-text a:hover {
+    text-decoration: none;
+    color: red;
+  }
+
+.connect-wallet {
+    /* font-size: small; */
+    border: none;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 5px;
+    color: #f0f8ff;
+    background-color: red;
+  }
+  
+  .register-button { 
+    border-radius: 5px;
+    border: none;
+    color: #f0f8ff;
+    background-color: red;
+  }
+  
+  .register-button {
+    width: 100%;
+    height: 30px;
+  }
+  
+  .register-button:hover, .connect-wallet:hover {
+    background-color: #f0f8ff;
+    color: #1520a6;
+  }

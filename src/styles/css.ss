@@ -1,0 +1,391 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* 100% of the viewport height */
+}
+
+.header {
+  display: flex;
+  padding: 10px 40px;
+  width: 100%;
+  color: white;
+  background-color: #141311;
+}
+
+.header-text {
+  font-family: "Arial Narrow";
+  font-weight: bold;
+}
+
+.logo {
+  margin-top: 12px;
+  margin-left: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+.body,
+.user-body {
+  display: flex;
+}
+
+.inside-body,
+.user-inside {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.user-inside {
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Additional styling for clarity */
+.inside-body:nth-child(odd),
+.user-inside:nth-child(even) {
+  background-color: white;
+  color: #141311;
+}
+
+.inside-body:nth-child(even),
+.user-inside:nth-child(odd) {
+  background-color: #141311;
+  color: white;
+}
+
+.button-body,
+.button-user {
+  font-size: large;
+  border: none;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.button-body {
+  background-color: #141311;
+  color: white;
+  width: 150px;
+}
+
+.button-user {
+  background-color: blue;
+  color: white;
+}
+
+.button-user:hover,
+.button-body:hover,
+.connect-wallet:hover {
+  background-color: red;
+  color: white;
+}
+
+.body-logo {
+  width: 70%;
+  height: 80%;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 40px;
+  text-align: left;
+  color: #cccccc;
+  font-family: "Arial Narrow";
+}
+
+.footer a {
+  text-decoration: none;
+  color: #cccccc;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.search-bar {
+  padding: 5px;
+  border: 1px solid#141311;
+  border-radius: 5px;
+  width: 70%;
+  height: 7%;
+  font-family: "Arial";
+}
+
+h2 {
+  font-family: "Arial";
+}
+
+.table {
+  width: 100%;
+  max-width: 400px; /* Adjust the maximum width as needed */
+  margin: 0 auto; /* Center the table horizontally */
+  border: 1px solid #141311;
+  padding: 10px;
+  color: #141311;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  border-bottom: 1px solid #141311;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.animated-write-up {
+  padding: 40px;
+  background-color: #141311; /* Add background color or any other styling you prefer */
+}
+
+.typed-text {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.get-started {
+  margin-bottom: 0;
+}
+
+.topic {
+  color: white;
+}
+
+.signup-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.rectangle,
+.drugrect {
+  width: 35%;
+  height: 90%;
+  background-color: #141311;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.rectangle {
+  justify-content: center;
+  align-items: center;
+  padding: 20px; /* Add padding for spacing */
+}
+
+.form-inside {
+  margin-bottom: 15px;
+  font-size: large;
+  color: white;
+}
+.input-field,
+.druginput-field {
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+}
+
+.input-field {
+  height: 40px;
+}
+
+.input-field::placeholder,
+.druginput-field::placeholder {
+  text-indent: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.connect-wallet {
+  font-size: small;
+  border: none;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: blue;
+}
+
+.register-button,
+.login-button {
+  font-size: larger;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background-color: red;
+}
+
+.login-button {
+  height: 40px;
+}
+
+.register-button {
+  width: 100%;
+  height: 55px;
+}
+
+.register-button:hover,
+.login-button:hover {
+  background-color: blue;
+}
+
+.login-button {
+  width: 80%;
+}
+
+.text {
+  color: white;
+}
+
+.text a {
+  color: blue;
+  text-decoration: underline;
+}
+
+.text a:hover {
+  text-decoration: none;
+  color: red;
+}
+
+.dashbody-container {
+  display: flex;
+  /* text-align: center; */
+}
+
+.dashbody {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.left {
+  flex: 0 0 20%;
+  background-color: #141311;
+}
+
+.right {
+  flex: 1;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.icons {
+  color: white;
+  margin: 40px 0 0 20px;
+  padding: 15px;
+}
+
+.icons:hover {
+  background-color: white;
+  color: #141311;
+}
+
+.icons a:hover {
+  color: #141311;
+}
+
+.top-rectangles {
+  display: flex;
+  justify-content: center;
+  height: 30%; /* Half of the right section */
+}
+
+.rec {
+  width: 30%;
+  /* border: 1px solid #141311; */
+  margin-top: 10px;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-bottom: 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* .rec:hover {
+  
+} */
+
+.half {
+  height: 50%;
+}
+
+.half a {
+  color: #141311;
+}
+
+.half a:hover {
+  color: red;
+}
+
+.bottom-rectangle {
+  flex: 1;
+}
+
+span {
+  font-size: x-large;
+}
+
+.heading {
+  margin-top: 50px;
+}
+
+.row {
+  display: flex;
+  border: none;
+  /* margin: 0; */
+  padding: 0;
+}
+
+.firstrow {
+  background-color: #141311;
+  color: white;
+}
+
+.column {
+  flex: 1;
+  padding: 10px;
+  border-bottom: 1px solid #141311;
+  border-right: 1px solid #141311;
+  text-align: center;
+}
+
+.druginput-field {
+  height: 35px;
+}
+
+.drugrect {
+  padding: 30px;
+}
+
+.drugrect h1 {
+  text-align: center;
+  color: white;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
