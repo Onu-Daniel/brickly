@@ -42,6 +42,26 @@ const SignupCompany = () => {
                 placeholder="Enter your company RC number"
               />
             </div>
+            
+            <div className="form-inside">
+              <label htmlFor="address">Address:</label>
+              <input
+                type=""
+                className="input-field"
+                id="address"
+                placeholder="Enter your company address"
+              />
+            </div>
+
+            <div className="form-inside">
+              <label htmlFor="email">Email Addresss:</label>
+              <input
+                type=""
+                className="input-field"
+                id="email"
+                placeholder="Enter your company email"
+              />
+            </div>
 
             <button type="submit" className="register-button">
               Register

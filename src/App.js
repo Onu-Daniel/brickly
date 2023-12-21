@@ -6,6 +6,8 @@ import Signup from './pages/Signup';
 import SignupCompany from './pages/SignupCompany';
 import SignupIndividual from './pages/SignupIndividual';
 import Dashboard from './pages/Dashboard';
+import Sell from './pages/Sell';
+import AddProperties from './pages/AddProperties';
 
 function App() {
   return (
@@ -17,6 +19,10 @@ function App() {
         <Route exact path="signup/company" element={<SignupCompany />} />
         <Route exact path="signup/individual" element={<SignupIndividual />} />
         <Route exact path="dashboard" element={<Dashboard />} />
+        <Route exact path="sell" element={<Sell />} />
+        <Route exact path="add-properties" element={<AddProperties />} />
+
+
       </Routes>
     </BrowserRouter>
   );
