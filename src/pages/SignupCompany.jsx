@@ -8,17 +8,17 @@ const SignupCompany = () => {
   return (
     <div>
       <Header />
-      <div className="signup-body">
+      <div className="signup-body" style={{textAlign: "left"}}>
         <div className="box">
           <h1 className="topic">Create Account</h1>
           <form action="">
             <div className="form-inside">
-              <label htmlFor="address">Address:</label>
+              <label htmlFor="address">Wallet Address:</label>
               <input
                 type=""
                 className="input-field"
                 id="address"
-                placeholder="Input Address"
+                placeholder="Input Wallet Address"
               />
               <button className="connect-wallet">Connect Wallet</button>
             </div>
@@ -44,7 +44,7 @@ const SignupCompany = () => {
             </div>
             
             <div className="form-inside">
-              <label htmlFor="address">Address:</label>
+              <label htmlFor="address">Company Address:</label>
               <input
                 type=""
                 className="input-field"

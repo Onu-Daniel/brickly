@@ -1,19 +1,21 @@
-.splits-container {
+.page-container {
   display: flex;
-  width: 98.5vw;
-  height: 92vh;
+  flex-direction: column;
+  height: 100vh; /* 100% of the viewport height */
 }
 
-.split-items1,
-.split-items2 {
-  border: none;
-  flex: 1;
-  padding-left: 70px;
-  padding-right: 70px;
-  padding-top: 100px;
-  /* padding-bottom: 90px; */
-  font-family: "Open Sans";
+.signup-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
   text-align: center;
+}
+
+.big-font {
+  font-size: x-large;
 }
 
 .signup-buttons-container {

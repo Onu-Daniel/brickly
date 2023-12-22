@@ -7,12 +7,10 @@ import mansionImage from "../public/mansion2.jpg";
 
 const Signup = () => {
   return (
-    <div>
+    <div className="page-container">
       <Header />
-      <div className="splits-container">
-        <div className="split-items1" style={{ flex: "50%" }}>
-        </div>
-        <div className="split-items2" style={{ flex: "50%" }}>
+      <div className="signup-body">
+        <div className="big-font">
           <h1>Create an account</h1>
           <div className="signup-buttons-container">
             <Link to={`/signup/company`}>

@@ -33,7 +33,7 @@ const SignupIndividual = () => {
   return (
     <div>
       <Header />
-      <div className="signup-body">
+      <div className="signup-body" style={{textAlign: "left"}}>
         <div className="box">
           <h1 className="topic">Create Account</h1>
           <form action="">
@@ -49,7 +49,7 @@ const SignupIndividual = () => {
             </div>
 
             <div className="form-inside">
-              <label htmlFor="name">Name:</label>
+              <label htmlFor="name">FullName:</label>
               <input
                 type=""
                 className="input-field"
