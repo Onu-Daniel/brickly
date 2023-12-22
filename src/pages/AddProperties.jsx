@@ -52,7 +52,7 @@ const AddProperties = () => {
             </div>
 
             <div className="form-inside">
-              <label htmlFor="price">Price</label>
+              <label htmlFor="price">Price:</label>
               <input
                 type="number"
                 className="input-field"
